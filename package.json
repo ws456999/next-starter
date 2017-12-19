@@ -1,0 +1,38 @@
+{
+  "name": "create-next-example-app",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node .",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "koa": "^2.4.1",
+    "koa-router": "^7.3.0",
+    "next": "^4.2.1",
+    "next-routes": "^1.2.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.2.3",
+    "babel-eslint": "^8.0.3",
+    "eslint": "^4.13.1",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-config-standard-react": "^5.0.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-react": "^7.5.1",
+    "eslint-plugin-standard": "^3.0.1",
+    "postcss-flexbugs-fixes": "^3.2.0",
+    "postcss-import": "^11.0.0",
+    "postcss-loader": "^2.0.9",
+    "postcss-mixins": "^6.2.0",
+    "postcss-nested": "^3.0.0",
+    "postcss-simple-vars": "^4.1.0",
+    "styled-jsx-plugin-postcss": "^0.1.1"
+  }
+}
