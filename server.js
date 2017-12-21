@@ -7,8 +7,8 @@ const dev = process.env.NODE_ENV !== 'production'
 const app = next({ dev })
 const handle = app.getRequestHandler()
 
-const routes = require('./routes')
-const handler = routes.getRequestHandler(app)
+// const routes = require('./routes')
+// const handler = routes.getRequestHandler(app)
 
 app.prepare().then(() => {
   const server = new Koa()
@@ -31,7 +31,7 @@ app.prepare().then(() => {
 
   server.use(async (ctx, next) => {
     ctx.res.statusCode = 200
-    handler(ctx.req, ctx.res)
+    // handler(ctx.req, ctx.res)
     await next()
   })
 
