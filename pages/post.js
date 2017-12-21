@@ -10,7 +10,7 @@ export default class PostPage extends Component {
     return (
       <div>
         <h1>
-          Post: {this.props.id} extra
+          Post: {this.props.id} extra1
         </h1>
         {/*
           show /blog in the browser
